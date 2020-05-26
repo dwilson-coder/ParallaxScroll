@@ -1,0 +1,124 @@
+/* Credits: Parallax CSS inspired by Web Ustaad */
+
+/* Main layout */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.title {
+	background: #fff;
+	margin: 0 auto;
+	padding: 60px;
+	text-align: center;
+}
+.block {
+	background: #fff;
+	padding: 60px;
+	width: 820px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.parallax-one, .parallax-two, .parallax-three, .parallax-four, .parallax-five, .parallax-six {
+	padding-top: 360px;
+	padding-bottom: 360px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.parallax-one {
+	background-image: url('../img/001.jpg');
+}
+.parallax-two {
+	background-image: url('../img/002.jpg');
+}
+.parallax-three {
+	background-image: url('../img/003.jpg');
+}
+.parallax-four {
+	background-image: url('../img/004.jpg');
+}
+.parallax-five {
+	background-image: url('../img/005.jpg');
+}
+.parallax-six {
+	background-image: url('../img/006.jpg');
+}
+/* Font styling */
+
+h1, h2, h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 35px;
+	color: #037054;
+	letter-spacing: 8px;
+	padding: 0;
+	margin: 0;
+}
+h3 {
+	font-size: 14px;
+	line-height: 10px;
+	letter-spacing: 8px;
+	color: #ec2021;
+}
+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+.first-character {
+	font-weight: 400;
+	float: left;
+	font-size: 84px;
+	line-height: 64px;
+	padding: 4px 8px 0 3px;
+}
+.kindness {
+	color: #ff9a16;
+}
+.thankyou {
+	color: #0f6363;
+}
+.face {
+	color: #fee300;
+}
+.distance {
+	color: #e84e10;
+}
+.protect {
+	color: #15bbaf;
+}
+.stayhome {
+	color: #ff7257;
+}
+/* Responsive layout */
+
+@media only screen and (min-width: 320px) {
+	.block {
+		padding: 40px;
+		width: 320px;
+		margin: 0 auto;
+		text-align: justify;
+	}
+	h1 {
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.block {
+		padding: 60px;
+		width: 768px;
+		margin: 0 auto;
+		text-align: justify;
+	}
+}
